@@ -2,7 +2,7 @@
 title: "class10.Rmd"
 author: "Shao-An Chen"
 date: "2/6/2020"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -68,9 +68,6 @@ pr.var <- wisc.pr$sdev^2
 head(pr.var)
 ```
 
-```{r}
-wisc.hc <-
-```
 
 ```{r}
 wisc.pr.hclust <- hclust(dist(wisc.pr$x[,1:3]), method="ward.D2")
